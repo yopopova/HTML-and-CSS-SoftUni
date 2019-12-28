@@ -1,0 +1,43 @@
+html {
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body, form, table, input, textarea, option, select {
+    font: inherit;
+}
+
+body {
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Georgia", serif;
+}
+
+ul li {
+    list-style-type: square;
+}
+
+ul li li {
+    list-style-type: disc;
+}
+
+ul li li li {
+    list-style-type: circle;
+}
+
+blockquote {
+    border-left: 2px solid rgb(221,221,221);
+    padding: 0 2.5em;
+}
+
+blockquote p {
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
+}

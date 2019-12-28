@@ -1,0 +1,52 @@
+html {
+    font: 16px/1.5 "Verdana", sans-serif;
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.wrapper {
+    max-width: 64em;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.span-width:after {
+    content: 'Viewport width is larger than 600px';
+}
+
+.span-height:after {
+    content: 'Viewport height is larger than 600px';
+}
+
+.span-ar:after {
+    content: 'Aspect Ratio is larger than 8/5';
+}
+
+@media ( min-width: 600px ) {
+
+    .span-width:after {
+        color: #090;
+    }
+}
+
+@media ( min-height: 600px ) {
+
+    .p-height:after {
+        color: #090;
+    }
+}
+
+@media ( min-aspect-ratio: 8/5 ) {
+
+    .p-ar:after {
+        color: #090;
+    }
+}

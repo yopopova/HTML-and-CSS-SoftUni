@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Georgia", serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+h3 {
+    padding-top: 1.5em;
+    padding-left: 2em;
+}
+
+p {
+    padding: 1em 2em;
+}
+
+a {
+    background-color: rgb(0, 153, 0);
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 0.2em;
+    padding: 0.5em 0.7em;
+}
+
+.button {
+    position: relative;
+    top: 0.5em;
+    left: 17em;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 1em rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    height: 11em;
+}
+
+.ar-box {
+    height: 14em;
+    background-color: #333;
+    border-top-left-radius: 0.3em;
+    border-top-right-radius: 0.3em;
+    overflow: hidden;
+    position: relative;
+}
+
+.ar-box img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

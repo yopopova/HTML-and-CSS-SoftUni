@@ -1,0 +1,64 @@
+body {
+    background-color: #EEE;
+}
+
+.site-table {
+    max-width: 60em;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+table, th, td {
+    border: 1px solid #CCC;
+    border-collapse: collapse;
+    padding: 1em;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    font-weight: bold;
+}
+
+th {
+    background-color: #000;
+    color: #FFF;
+}
+
+tr:nth-child(odd) {
+    background: #FFF;
+}
+
+@media screen and ( max-width: 900px ) {
+
+    th {
+        display: none;
+    }
+
+    td {
+        display: block;
+        width: auto;
+        font-weight: normal;
+    }
+
+    .fn:before {
+        content: 'First Name';
+        font-weight: bold;
+        margin-right: 1em;
+    }
+
+    .ln:before {
+        content: 'Last Name';
+        font-weight: bold;
+        margin-right: 1em;
+    }
+
+    .jt:before {
+        content: 'Job Title';
+        font-weight: bold;
+        margin-right: 1em;
+    }
+}

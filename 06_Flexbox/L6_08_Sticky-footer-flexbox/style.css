@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 60em;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: rgb(238, 238, 238);
+}
+
+h2 {
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+.site-title {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+.underline {
+    width: 100%;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.site-footer {
+    flex-shrink: 0;
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+}
