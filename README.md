@@ -12,3 +12,7 @@ The purpose of the course 'HTML & CSS' is to provide basic knowledge of web tech
 - Creation of adaptive (responsive) web design
 - Creating modern websites
 - Ability to create static web pages
+
+## Certificate
+
+You can [follow the link](https://softuni.bg/certificates/details/75541/966be246) to see my 'HTML and CSS' course score.
