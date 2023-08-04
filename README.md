@@ -16,3 +16,5 @@ The purpose of the course 'HTML & CSS' is to provide basic knowledge of web tech
 ## Certificate
 
 You can [follow the link](https://softuni.bg/certificates/details/75541/966be246) to see my 'HTML and CSS' course score.
+
+![HTML-and-CSS-course-certificate](https://softuni.bg/certificates/details/75541/966be246)
