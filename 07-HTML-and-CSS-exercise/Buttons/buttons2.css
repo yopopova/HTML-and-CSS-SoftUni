@@ -1,0 +1,67 @@
+@import url('../Buttons/css/all.css');
+
+.button {
+    display: inline-block;
+    margin-right: 0.5em;
+    border: 2px solid #000;
+    background: transparent;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 0.3em;
+    padding: 1em 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.button.hover,
+.button:hover {
+    border-color: #080;
+    color: #080;
+}
+
+.button.fill {
+    background-color: #000;
+    color: #FFF;
+}
+
+.button.fill.hover,
+.button.fill:hover {
+    background-color: #080;
+    color: #FFF;
+}
+
+.button.icon i {
+    padding-right: 0.5em;
+}
+
+/* In this case we use font awesome icons without to import FA file */
+
+.icon:before {
+    display: inline-block;
+    content: '';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900; /* With this property we can change the icon style */
+    margin-right: 0.5em;
+    transition: all 0.3s ease-in;
+}
+
+.icon-globe:before { content: '\f0ac'; }
+
+ul {
+
+}
+
+li {
+    list-style: none outside;
+}
+
+li:before {
+    display: inline-block;
+    content: '';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 0.5em;
+    content: '\f00d';
+    font-size: 0.8em;
+}
