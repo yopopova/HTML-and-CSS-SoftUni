@@ -1,0 +1,83 @@
+html {
+    font-family: "Helvetica", sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 2em;
+}
+
+.container {
+    display: flex;
+    max-width: 15vw;
+    height: 35rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+span {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    height: 6%;
+    margin: 1em;
+    text-align: center;
+}
+
+.item1 {
+    order: 7;
+}
+
+.item2 {
+    order: 0;
+}
+
+.item3 {
+    order: 8;
+}
+
+.item4 {
+    order: 2;
+}
+
+.item5 {
+    order: 6;
+}
+
+.item6 {
+    order: 5;
+}
+
+.item7 {
+    order: 9;
+}
+
+.item8 {
+    order: 3;
+}
+
+.item9 {
+    order: 4;
+}
+
+.item10 {
+    order: 10;
+}
+
+.item11 {
+    order: -1;
+}
+
+.item12 {
+    order: 1;
+}

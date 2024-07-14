@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+body {
+
+}
+
+.site {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 4em;
+}
+
+.site-content {
+    flex-grow: 1;
+    /* Za zadacha 9 Center flexbox */
+    background: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Za zadacha 9 Center flexbox */
+}
+
+.site-content p {
+    background: #FFF;
+    box-shadow: 0 0 1em 0 rgba(0,0,0,0.5);
+    width: 30em;
+    padding: 2em;
+    border-radius: 0.3em;
+    /* Za zadacha 9 Center flexbox - drug variant za centrirane */
+    margin: auto; /* Sashtoto kato perfectniya center */
+    /* Za zadacha 9 Center flexbox - drug variant za centrirane */
+}
+
+.site-header {
+    padding-bottom: 2em;
+    border-bottom: 5px solid #000;
+    margin-bottom: 1em;
+    /* Drug nachin za header - ne e preporachitelno */
+    /* position: fixed; */
+    /* top: 0; */
+    /* left: 0; */
+    /* width: 100%; */
+    /* padding: 2em; */
+    /* background: #999; */
+}
+
+.site-footer {
+    padding-top: 2em;
+    border-top: 5px solid #000;
+    margin-top: 1em;
+    /* Drug nachin za footer - ne e preporachitelno */
+    /* position: fixed; */
+    /* bottom: 0; */
+    /* left: 0; */
+    /* width: 100%; */
+    /* padding: 2em; */
+    /* background: #999; */
+}

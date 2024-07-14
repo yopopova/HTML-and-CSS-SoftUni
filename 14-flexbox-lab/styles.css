@@ -1,0 +1,26 @@
+body {
+    padding: 4em;
+}
+
+.container {
+    border: 2px solid #000;
+    background: #666;
+    padding: 1em;
+    display: flex;
+    align-items: flex-start;
+    min-height: 500px;
+}
+
+.item {
+    border: 1px solid #000;
+    background: #FFF;
+    /* flex-basis: 5em;
+    flex-grow: 1;
+    flex-shrink: 0; */
+    flex: 1 0 5em;
+}
+
+.item:nth-child(4) {
+    flex-grow: 4;
+    order: -1;
+}

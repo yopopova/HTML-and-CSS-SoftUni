@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    padding: 0.5em;
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+.site-header {
+    display: flex;
+}
+
+.site-title {
+    text-transform: uppercase;
+}
+
+.underline {
+    width: 100%;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
