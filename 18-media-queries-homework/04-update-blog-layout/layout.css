@@ -1,0 +1,144 @@
+@import url('./css/all.css');
+
+.site {
+    max-width: 60em;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #000;
+}
+
+.site-title {
+    display: flex;
+    flex: 0 0 50%;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.site > input {
+    display: block;
+    position: absolute;
+    top: 0; left: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.site-content {
+    display: flex;
+}
+
+.site-main {
+    display: flex;
+    flex: 0 0 80%;
+}
+
+.site-sidebar {
+    display: flex;
+    flex: 0 0 20%;
+    margin-left: 3em;
+}
+
+.site-sidebar a {
+    text-decoration: none;
+    color: #090;
+}
+
+img {
+    display: inline-block;
+    border: 0.5em solid #000;
+    padding: 0.5em;
+    margin: 0.5em;
+    box-shadow: 0 0 1em 0.5em rgba(0, 0, 0, 0.25);
+    background-image: rgb(255, 255, 255);
+}
+
+.image-1 {
+    margin-left: 2em;
+    float: right;
+}
+
+.image-2 {
+    margin-right: 2em;
+    float: left;
+}
+
+.text {
+    margin: 1em;
+}
+
+.author {
+    text-align: right;
+}
+
+.cleaner:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+@media screen and ( max-width: 900px ) {
+
+    .site-nav-label {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #000;
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+
+    .site-nav-label:before {
+        display: flex;
+        font-family: 'Font Awesome 5 Free';
+        content: '\f00d';
+        margin-right: 0.5em;
+    }
+
+    .site-header {
+        display: block;
+        border-bottom: none;
+    }
+
+    .site-title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .site-nav {
+        display: block;
+    }
+
+    .site-nav ul {
+        display: block;
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+        border-radius: 0;
+    }
+
+    .site-nav a {
+        margin-bottom: 0.5em;
+    }
+
+    .site-nav-toggle:checked + .site-header {
+        position: fixed;
+        width: calc( 100% - 4em );
+    }
+
+    .site-nav-toggle:checked + .site-header .site-nav {
+        position: fixed;
+        top: 0; left: 0; right: 0; bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(255,255,255,1);
+    }
+
+    .site-content {
+        display: block;
+    }
+}
