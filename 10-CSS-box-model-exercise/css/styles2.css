@@ -1,0 +1,25 @@
+@import url('reset.css');
+@import url('gallery.css');
+
+html {
+    font-size: 21px;
+}
+
+.site {
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+.hero {
+    color: #FFF;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)), url('https://images.unsplash.com/photo-1558981000-f294a6ed32b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+    background-position: center, center;
+    background-repeat: no-repeat, repeat;
+    background-size: cover, cover;
+    padding: 30vh 5vw 10vh;
+    text-align: right;
+}
+
+.hero h1 {
+    
+}
