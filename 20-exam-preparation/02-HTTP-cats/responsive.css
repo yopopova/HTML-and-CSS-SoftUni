@@ -1,0 +1,23 @@
+@media screen and (max-width: 768px) {
+
+    .gallery {
+        display: block;
+    }
+    
+    .gallery > * {
+        width: 100%;
+    }
+
+    .spotlight {
+        display: block;
+    }
+
+    .spotlight > * {
+        width: 100%;
+    }
+
+    .spotlight p,
+    .spotlight h3 {
+        text-align: center;
+    }
+}
