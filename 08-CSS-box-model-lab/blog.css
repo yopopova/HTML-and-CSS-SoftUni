@@ -1,0 +1,23 @@
+.site-header,
+.site-footer {
+    border: 0 solid #CCC;
+    padding: 1em 1.5em;
+}
+
+.site-header {
+    border-bottom-width: 2px;
+    padding-top: 2em;
+}
+
+/* This removes the h1 top padding */
+
+.site-header h1 {
+    padding-top: 0;
+    line-height: 1;
+}
+
+/* End of: This removes the h1 top padding */
+
+.site-footer {
+    border-top-width: 2px;
+}
